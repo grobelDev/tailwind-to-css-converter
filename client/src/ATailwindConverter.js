@@ -70,7 +70,7 @@ function ClassesLayout({ size, children }) {
 
   return (
     <Fragment>
-      <p>{`@media (max-width: ${classDict[size]}px) {`}</p>
+      <p>{`@media (min-width: ${classDict[size]}px) {`}</p>
       <div className='px-4'>{children}</div>
       <p>{`}`}</p>
     </Fragment>
