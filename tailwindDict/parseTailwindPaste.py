@@ -31,6 +31,20 @@ shadowResult = {
     "shadow-none": "box-shadow: none;",
 }
 
+with open("./tailwindPaste2.js") as file:
+    data = file.read().splitlines()
+
+tailwindArray2 = []
+cssArray2 = []
+
+for line in data:
+    if ".grid-cols" in line:
+        tailwindArray2.append(line.split(".")[1])
+    if "grid-template-columns" in line:
+        cssArray2.append(line.strip())
+
+# tempResult = {}
+
 result = {}
 for i in range(len(tailwindArray)):
     key = tailwindArray[i]
@@ -40,11 +54,17 @@ for key in shadowResult:
     value = shadowResult[key]
     result[key] = value
 
-print(len(result))
+for i in range(len(tailwindArray2)):
+    key = tailwindArray2[i]
+    value = cssArray2[i]
+    result[key] = value
 
+print(len(result))
+# print(tempResult)
 
 # with open("tailwindDict.json", "w") as file:
 #     file.write(json.dumps(result))  # use `json.loads` to do the reverse
 
 with open("../client/src/tailwindDict.json", "w") as file:
     file.write(json.dumps(result))  # use `json.loads` to do the reverse
+

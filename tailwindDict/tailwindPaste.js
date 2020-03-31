@@ -9261,3 +9261,924 @@ function height() {
     </div>
   );
 }
+
+//
+function gap() {
+  return (
+    <div>
+      {' '}
+      <tr>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-0
+        </td>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 0;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 0.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 0.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 0.75rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 1rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 1.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 1.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 2rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 2.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 3rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-16
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 4rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-20
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-24
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 6rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-32
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 8rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-40
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 10rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-48
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 12rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-56
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 14rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-64
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 16rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .gap-px
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          gap: 1px;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-0
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 0;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 0.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 0.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 0.75rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 1rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 1.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 1.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 2rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 2.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 3rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-16
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 4rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-20
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-24
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 6rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-32
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 8rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-40
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 10rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-48
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 12rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-56
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 14rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-64
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 16rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .row-gap-px
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          row-gap: 1px;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-0
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 0;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 0.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 0.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 0.75rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 1rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 1.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 1.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 2rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 2.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 3rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-16
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 4rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-20
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-24
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 6rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-32
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 8rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-40
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 10rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-48
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 12rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-56
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 14rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-64
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 16rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-gap-px
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          column-gap: 1px;
+        </td>
+      </tr>
+    </div>
+  );
+}
+
+function gridColumn() {
+  return (
+    <div>
+      {' '}
+      <tr>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-auto
+        </td>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: auto;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 1 / span 1;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 2 / span 2;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 3 / span 3;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 4 / span 4;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 5 / span 5;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 6 / span 6;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-7
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 7 / span 7;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 8 / span 8;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-9
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 9 / span 9;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 10 / span 10;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-11
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 11 / span 11;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-span-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column: span 12 / span 12;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 1;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 2;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 3;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 4;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 5;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 6;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-7
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 7;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 8;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-9
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 9;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 10;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-11
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 11;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 12;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-13
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: 13;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-start-auto
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-start: auto;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-1
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 1;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-2
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 2;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 3;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 4;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 5;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 6;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-7
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 7;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 8;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-9
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 9;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 10;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-11
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 11;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-12
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 12;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-13
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: 13;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .col-end-auto
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          grid-column-end: auto;
+        </td>
+      </tr>
+    </div>
+  );
+}
+
+function lineHeight() {
+  return (
+    <div>
+      {' '}
+      <tr>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-none
+        </td>
+        <td class='p-2 border-t border-gray-300 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-tight
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.25;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-snug
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.375;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-normal
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.5;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-relaxed
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.625;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-loose
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 2;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-3
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: .75rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-4
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-5
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-6
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.5rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-7
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 1.75rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-8
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 2rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-9
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 2.25rem;
+        </td>
+      </tr>
+      <tr>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-purple-700 whitespace-no-wrap'>
+          .leading-10
+        </td>
+        <td class='p-2 border-t border-gray-200 font-mono text-xs text-blue-700 whitespace-pre'>
+          line-height: 2.5rem;
+        </td>
+      </tr>
+    </div>
+  );
+}
